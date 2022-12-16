@@ -79,7 +79,7 @@ func NewBox() *Box {
 		innerX:           -1, // Mark as uninitialized.
 		backgroundColor:  Styles.PrimitiveBackgroundColor,
 		borderStyle:      tcell.StyleDefault.Foreground(Styles.BorderColor).Background(Styles.PrimitiveBackgroundColor),
-		borderFocusStyle: tcell.StyleDefault.Foreground(Styles.BorderColor).Background(Styles.PrimitiveBackgroundColor),
+		borderFocusStyle: tcell.StyleDefault.Foreground(Styles.FocusBorderColor).Background(Styles.PrimitiveBackgroundColor),
 		titleColor:       Styles.TitleColor,
 		titleAlign:       AlignCenter,
 	}

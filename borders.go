@@ -36,10 +36,10 @@ var Borders = struct {
 	BottomT: BoxDrawingsLightUpAndHorizontal,
 	Cross:   BoxDrawingsLightVerticalAndHorizontal,
 
-	HorizontalFocus:  BoxDrawingsDoubleHorizontal,
-	VerticalFocus:    BoxDrawingsDoubleVertical,
-	TopLeftFocus:     BoxDrawingsDoubleDownAndRight,
-	TopRightFocus:    BoxDrawingsDoubleDownAndLeft,
-	BottomLeftFocus:  BoxDrawingsDoubleUpAndRight,
-	BottomRightFocus: BoxDrawingsDoubleUpAndLeft,
+	HorizontalFocus:  BoxDrawingsLightHorizontal,
+	VerticalFocus:    BoxDrawingsLightVertical,
+	TopLeftFocus:     BoxDrawingsLightDownAndRight,
+	TopRightFocus:    BoxDrawingsLightDownAndLeft,
+	BottomLeftFocus:  BoxDrawingsLightUpAndRight,
+	BottomRightFocus: BoxDrawingsLightUpAndLeft,
 }
